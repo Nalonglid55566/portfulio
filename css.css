@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(214, 216, 216);
+    width: 1500px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+  
+}
+.boxf{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 490px;
+    height: 430px;
+    margin: auto;
+    /* border: none; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    /* box-sizing: border-box; */
+    /* margin: 40px 0 0;
+    padding: 20px 0 28px;
+
+    /* position: relative; */
+
+   
+    
+}
+.luy3{
+    background-color: rgb(103, 107, 103);
+       height: 60px;
+    width: 455px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 15px;
+}
+
+#kuy{
+    border-radius: 8px;
+    height: 60px;
+    width: 455px;
+    /* position: absolute; */
+    margin-top: 15px;
+    
+   
+
+}
+#kuy2{
+    border-radius: 8px;
+    height: 60px;
+    width: 455px;
+    /* position: absolute; */
+    margin-top: 15px;
+   
+
+}
+.form-group{
+    padding: 0px 0px 5px 50px;
+    background-color: aquamarine;
+    position: relative;
+   
+    
+}
+.form-group2{
+    padding: 0px 0px 5px 50px;
+    background-color: rgb(3, 60, 41);
+    position: relative;
+    
+}
+.btnk{
+   background-color: #0429b9;
+    border-radius: 8px;
+    height: 60px;
+    width: 455px;
+    cursor: pointer;
+    position: absolute;
+right: 15px;
+  
+}
+.ccc{
+position: absolute;
+color: #0429b9;
+
+}
+.form-control{
+    background-color: bisque;
+    right: 15px;
+}

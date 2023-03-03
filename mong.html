@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form test</title>
+ <link rel="stylesheet" href="../New folder/css.css">
+</head>
+<body>
+  <!-- <div class="pt-4"></div> -->
+<div class="container">
+  <div>
+    
+    <h3 class="text-center">ฟอร์มบันทึกข้อมูลด้วย HTML</h3>
+
+  </div>
+  <!-- ສວນlogo -->
+  <div class="boxf">
+
+  <form method="post" autocomplete="off" name="hello-sheet">
+    <!-- <div class="form-group"> -->
+      <!-- <label for="name">ชื่อ สกุล</label> -->
+      <!-- <input id="kuy" type="text" class="form-control"  placeholder="ชื่อ สกุล" name="ชื่อ-สกุล">
+    </div> -->
+    <!-- <div class="form-group"> -->
+    <!-- <label for="name">ชื่อเล่น</label> -->
+      <!-- <input  id="kuy"type="text" class="form-control"  placeholder="ชื่อเล่น" name="ชื่อเล่น">
+    </div> -->
+     <!-- <div class="form-group"> -->
+    <!-- <label for="name">เบอร์โทร</label> -->
+      <input  id="kuy"type="text" class="form-control"  placeholder="เบอร์โทร" name="เบอร์โทร">
+    </div>
+    <div class="luy3">
+  <div class="form-group">
+    <!-- <label for="exampleInputEmail1">อีเมล</label> -->
+    <input id="kuy" type="email" name="อีเมล" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email or phone number">
+  </div>
+  <div class="form-group2">
+    <label for="exampleInputEmail1">อีเมล</label>
+    <input id="kuy2" type="password" name="password1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Password">
+  </div>
+
+     <button type="submit" name="submit" value="Send message" class="btnk">Log In</button>
+    
+    </div>
+</form>
+   
+</div>
+</div>
+<script>
+            const scriptURL = 'xxx'
+            const form = document.forms['hello-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("บันทึกข้อมูลเรียบร้อยแล้ว.."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
